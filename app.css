@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+}
+
+form {
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    padding:50px;
+}
+
+.input-fields {
+    margin: 25px;
+    width: 300px;
+    height:60px;
+}
+
+input[type=submit] {
+    padding:10px 15px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+
+input[type=submit]:hover {
+    background-color: silver;
+    cursor: pointer;
+}
